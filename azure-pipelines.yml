@@ -4,7 +4,6 @@ trigger:
 pool:
   vmImage: 'ubuntu-20.04'
 
-jobs:
-- job: test
-  steps:
-  - script: echo "Test passed"
+steps:
+- script: echo "Test passed"
+  displayName: 'Run test script'
