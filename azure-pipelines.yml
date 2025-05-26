@@ -2,8 +2,9 @@ trigger:
 - '*'
 
 pool:
+  name: 'Azure Pipelines'
   vmImage: 'ubuntu-20.04'
 
 steps:
-- script: echo "Test passed"
-  displayName: 'Run test script'
+- script: echo "Hello from Azure Pipelines"
+  displayName: 'Test Script'
