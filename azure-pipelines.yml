@@ -3,7 +3,7 @@ trigger:
 
 pool:
   name: 'Azure Pipelines'
-  vmImage: 'ubuntu-20.04'
+  vmImage: 'ubuntu-latest'
 
 steps:
 - script: echo "Hello from Azure Pipelines"
